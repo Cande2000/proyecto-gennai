@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="../index.html">
+            <img class="principal" style="margin: 20px;" src="../imagenes/tienda-saludable-dietetica-logo.jpg" alt="natural" width="150"
+                height="150">
+
+        </a>
+        <img src="../imagenes/menu.png" alt="" class="header__menu" height="20px" width="20px">
+
+
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html" class="nav__item--etiqueta">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./reclamos.html" class="nav__item--etiqueta">Reclamos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./productos.html" class="nav__item--etiqueta">Productos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contacto.html" class="nav__item--etiqueta">Contactos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./sucursales.html" class="nav__item--etiqueta">Sucursales</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <section class="section__reclamos">
+            <div class="section__titulo">
+                <p>completa el formulario:</p>
+            </div>
+
+            <form action="" style="margin: 20px;">
+                <div>
+                    <div class="formulario__prov">
+                        <label for="Provincia">Provincia a la que se envio el producto</label>
+
+                        <select name="Provincia" id="Provincia">
+                            <option value="">-Seleccione-</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Tucuman">Tucuman</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Buenos Aires">Buenos Aires </option>
+                        </select>
+                    </div>
+
+                    <div class="formulario__prov">
+                        <label for="Reclamo"> Email
+                        </label>
+                        <input type="email" name="Reclamo" id="Reclamo" placeholder="name@mail.com" required>
+                    </div>
+
+                    <div class="formulario__prov">
+                        <label for="Nombre">Nombre completo</label>
+                        <input type="text" name="Nombre" id="Nombre" required>
+                    </div>
+
+                    <div class="formulario__prov">
+                        <label for="Numero">Número de teléfono</label>
+                        <input type="text" name="Número" id="Numero" placeholder="sin 0 y 15" required>
+                    </div>
+                </div>
+
+                <div class="formulario__prov">
+
+                    <label for="Coment"> Motivo del reclamo</label>
+                    <textarea name="Coment" id="Coment" cols="40" rows="30"
+                    required></textarea>
+                </div>
+
+                <button class="form__boton">Aceptar</button>
+
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="div__footer">
+            <h3 style="border-bottom: solid ;">
+                Mapa del sitio
+            </h3>
+
+            <nav>
+                <ul>
+                    <li class=>
+                        <a href="./paginas/reclamos.html" class="nav__item--etiquetaFooter" >Reclamos</a>
+                    </li>
+                    <li class=>
+                        <a href="./paginas/productos.html"class="nav__item--etiquetaFooter">Productos</a>
+                    </li>
+                    <li class=>
+                        <a href="./paginas/contacto.html"class="nav__item--etiquetaFooter">Contactos</a>
+                    </li>
+                    <li class=>
+                        <a href="./paginas/sucursales.html"class="nav__item--etiquetaFooter">Sucursales</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+        <div class="div__footer">
+            <h3 style="border-bottom: solid">Se el primero en saber</h3>
+            <p>Enterate de las ultimas novedades</p>
+            <form action="">
+                <label for="Email"></label>
+                <input type="Email" name="Email" id="Email" placeholder="Ingrese su Email">
+                <button class="div__footer--boton">Enviar</button>
+            </form>
+        </div>
+
+        <nav  class="div__footer--logo">
+            <h3 class="div__footer" style="border-bottom: solid">
+                Redes sociales
+            </h3>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../imagenes/facebook.png" alt="facebook" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../imagenes/instagram3.png" alt="instagram" width="30" height="30">
+            </a>
+        </nav>
+
+    </footer>
+
+
+
+</body>
+
+</html>
